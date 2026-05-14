@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def home():
-    return "Flask funcionando en Elastic Beanstalk - version 3"
+    return "Flask funcionando en Elastic Beanstalk - version 4"
 
 @application.route("/health")
 def health():
